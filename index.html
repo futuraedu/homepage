@@ -370,7 +370,7 @@
         }
 
         .footer-links { display: flex; gap: 24px; margin-bottom: 24px; flex-wrap: wrap; align-items: center; }
-        .footer-links button, .footer-links a {
+        .footer-links button {
             background: none;
             border: none;
             color: var(--text-main);
@@ -379,9 +379,8 @@
             font-weight: 600;
             cursor: pointer;
             padding: 0;
-            text-decoration: none;
         }
-        .footer-links button:hover, .footer-links a:hover { color: var(--neon-green); }
+        .footer-links button:hover { color: var(--neon-green); }
 
         .footer-contact-bar {
             padding: 18px 0;
@@ -672,12 +671,11 @@
         </div>
     </section>
 
-    <!-- 하단 푸터 (공정위 공식 통합조회 메인 링크 연동) -->
+    <!-- 하단 푸터 (공정위 링크 제외 버전) -->
     <footer>
         <div class="footer-links">
             <button onclick="openModal('termsModal')">Terms of Use</button>
             <button onclick="openModal('privacyModal')" style="color: var(--neon-green);">Privacy Policy</button>
-            <a href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=6938603292" target="_blank">Business Registration Verification</a>
         </div>
 
         <div class="footer-contact-bar">
