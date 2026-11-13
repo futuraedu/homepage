@@ -53,7 +53,7 @@
         .header-time { font-size: 13px; color: var(--text-sub); }
         .header-time strong { color: var(--neon-green); }
 
-        /* 히어로 섹션 (좌측 메인 비전 + 우측 1:1 무료 상담 폼) */
+        /* 히어로 섹션 */
         .hero {
             padding: 75px 8% 85px 8%;
             display: grid;
@@ -113,4 +113,37 @@
         .quick-channel-box {
             padding-top: 20px;
             border-top: 1px solid rgba(255,255,255,0.08);
-            font-
+            font-size: 13px;
+            color: var(--text-sub);
+            line-height: 1.8;
+        }
+        .quick-channel-box a { color: var(--text-main); font-weight: 600; }
+        .quick-channel-box a:hover { color: var(--neon-green); text-decoration: underline; }
+
+        /* 크림슨 스타일 1:1 무료 상담 신청 카드 */
+        .consult-form-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 24px 48px rgba(0,0,0,0.5);
+        }
+
+        .consult-form-card h3 {
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 6px;
+            color: var(--text-main);
+        }
+        .consult-form-card h3 span { color: var(--neon-green); }
+        .consult-form-card .sub-desc {
+            font-size: 13px;
+            color: var(--text-sub);
+            margin-bottom: 20px;
+        }
+
+        .role-selector {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 16px
